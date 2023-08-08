@@ -2,14 +2,6 @@ public class Usuario {
     public static void main(String[] args) {
         SmartTv smartTv= new SmartTv();
 
-        smartTv.diminuirVolume();
-        smartTv.aumentarVolume();
-        smartTv.diminuirVolume();
-        smartTv.diminuirVolume();
-        smartTv.mudarCanal(13);
-        System.out.println("Canal atual: "+smartTv.canal);
-
-        System.out.println("Volume atual: "+smartTv.volume);
         
 
 
@@ -25,6 +17,14 @@ public class Usuario {
 
             System.out.println("Novo status->TV ligada? "+smartTv.ligada);
             
+        smartTv.diminuirVolume();
+        smartTv.aumentarVolume();
+        smartTv.diminuirVolume();
+        smartTv.diminuirVolume();
+        smartTv.mudarCanal(13);
+        System.out.println("Canal atual: "+smartTv.canal);
+
+        System.out.println("Volume atual: "+smartTv.volume);
         
     }
 }
