@@ -9,6 +9,13 @@
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ContaTerminal",
+            "request": "launch",
+            "mainClass": "ContaTerminal",
+            "projectName": "contaBanco_b9e9cadd"
         }
     ]
 }
